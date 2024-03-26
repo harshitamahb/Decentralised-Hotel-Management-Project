@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="/style.css">
+    <body style="background-color: coral"> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        .heading {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>Welcome To Ampirial Labs</h1>
+    </div>
+    
+    <div class="form-container">
+        <h2>Sign Up And Create Your Account</h2>
+        <form action="/signup" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="username" placeholder="Enter your name" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+            <div class="form-group">
+                <label for="mobileno">Mobile Number:</label>
+                <input type="text" id="mobileno" name="mobileno" placeholder="Enter your mobile number" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="email"> Email Id:</label>
+                <input type="text" id="email" name="emailid" placeholder="Enter your email-id" required autocomplete="off">
+            </div>
+            <div class="form-group">
+                <label for="How did you hear about us">How did you hear about us?</label>
+                <input type="text" id="source" name="source" placeholder="How did you hear about us?" required autocomplete="off">
+            </div>
+            <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>

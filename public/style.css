@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral; /* Set background color to yellow */
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff; /* Set background color of container to white */
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000; /* Set background color to black */
+    color: #fff; /* Set text color to white */
+}
+
+.left-content {
+    text-align: center;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align content to the right */
+    background-color: #000; /* Set background color to black */
+}
+
+.form-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff; /* Set background color of form container to white */
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    height: 50px;
+    width: 100%;
+    padding: 8px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-btn {
+    height: 65px;
+    width: 100%;
+    padding: 15px;
+    background-color: #472dbb;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #4565a0;
+}
+
+p {
+    margin-top: 15px;
+}
